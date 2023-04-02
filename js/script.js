@@ -17,47 +17,32 @@ function loaded() {
 var x = 0;
 
 var titleText = ["|",
-					"★…",
-					"★… ",
-					"★… A",
-					"★… Av",
-					"★… Avi",
-					"★… Avir",
-					"★… Avira",
-					"★… Avira ",
-                    "★… Avira ★…",
-                    "★… Avira ★…",
-                    "★… Avira ",
-                    "★… Avira",
-                    "★… Avir",
-                    "★… Avi",
-                    "★… Av",
-                    "★… A",
+					"★",
                     "★… ",
-                    "★…",
-                    "|",
-                    "★…",
                     "★… ",
-                    "★… M",
-                    "★… Ma",
-                    "★… Mad",
-                    "★… Mad ",
-                    "★… Mad D",
-                    "★… Mad Do",
-                    "★… Mad Dog",
-                    "★… Mad Dog ",
-                    "★… Mad Dog ★…",
-                    "★… Mad Dog ★…",
-                    "★… Mad Dog ",
-                    "★… Mad Dog",
-                    "★… Mad Do",
-                    "★… Mad D",
-                    "★… Mad ",
-                    "★… Mad",
-                    "★… Ma",
-                    "★… M",
+					"★… N",
+					"★… Ne",
+					"★… Nex",
+					"★… Nexo",
+					"★… Nexow",
+					"★… Nexowa ",
+                    "★… Nexowar ",
+                    "★… Nexoware ",
+                    "★… Nexoware ★",
+                    "★… Nexoware …★",
+                    "★… Nexoware …★",
+                    "★… Nexoware ★",
+                    "★… Nexoware ",
+                    "★… Nexowar ",
+                    "★… Nexowa ",
+                    "★… Nexow ",
+                    "★… Nexo",
+                    "★… Nex",
+                    "★… Ne",
+                    "★… N",
                     "★… ",
-                    "★…", ];
+                    "★",
+                    "|",,, ];
 
 
 function loop() {
@@ -78,5 +63,5 @@ $(window).on("scroll", function () {
         "#home" == s && ($(".navbar-auth").removeClass("advantages-a buy-a support-a").addClass("home-a"), $(".navbar-lang").removeClass("lang-advantages lang-buy lang-support").addClass("lang-home")), "#advantages" == s && ($(".navbar-auth").removeClass("home-a buy-a support-a").addClass("advantages-a"), $(".navbar-lang").removeClass("lang-home lang-buy lang-support").addClass("lang-advantages")), "#buy" == s && ($(".navbar-auth").removeClass("home-a advantages-a support-a").addClass("buy-a"), $(".navbar-lang").removeClass("lang-home lang-advantages lang-support").addClass("lang-buy")), "#support" == s && ($(".navbar-auth").removeClass("home-a advantages-a buy-a").addClass("support-a"), $(".navbar-lang").removeClass("lang-home lang-advantages lang-buy").addClass("lang-support"))
     }), !1
 }), $(".support-item").click(function (a) {
-    $(this).is("#hw-1") && ($("#1").addClass("active-win"), $("#2").removeClass("active-win"), $("#3").removeClass("active-win"), $("#4").removeClass("active-win"), $("#5").removeClass("active-win")), $(this).is("#hw-2") && ($("#1").removeClass("active-win"), $("#2").addClass("active-win"), $("#3").removeClass("active-win"), $("#4").removeClass("active-win"), $("#5").removeClass("active-win")), $(this).is("#hw-3") && ($("#1").removeClass("active-win"), $("#2").removeClass("active-win"), $("#3").addClass("active-win"), $("#4").removeClass("active-win"), $("#5").removeClass("active-win")), $(this).is("#hw-4") && ($("#1").removeClass("active-win"), $("#2").removeClass("active-win"), $("#3").removeClass("active-win"), $("#4").addClass("active-win"), $("#5").removeClass("active-win")), $(this).is("#hw-5") && ($("#1").removeClass("active-win"), $("#2").removeClass("active-win"), $("#3").removeClass("active-win"), $("#4").removeClass("active-win"), $("#5").addClass("active-win")), $(this).is("#hw-6") && window.open("https://vk.com/qn1s_it")
+    $(this).is("#hw-1") && ($("#1").addClass("active-win"), $("#2").removeClass("active-win"), $("#3").removeClass("active-win"), $("#4").removeClass("active-win"), $("#5").removeClass("active-win")), $(this).is("#hw-2") && ($("#1").removeClass("active-win"), $("#2").addClass("active-win"), $("#3").removeClass("active-win"), $("#4").removeClass("active-win"), $("#5").removeClass("active-win")), $(this).is("#hw-3") && ($("#1").removeClass("active-win"), $("#2").removeClass("active-win"), $("#3").addClass("active-win"), $("#4").removeClass("active-win"), $("#5").removeClass("active-win")), $(this).is("#hw-4") && ($("#1").removeClass("active-win"), $("#2").removeClass("active-win"), $("#3").removeClass("active-win"), $("#4").addClass("active-win"), $("#5").removeClass("active-win")), $(this).is("#hw-5") && ($("#1").removeClass("active-win"), $("#2").removeClass("active-win"), $("#3").removeClass("active-win"), $("#4").removeClass("active-win"), $("#5").addClass("active-win")), $(this).is("#hw-6") && window.open("https://vk.com/")
 })
