@@ -16,16 +16,17 @@ function loaded() {
 
 var x = 0;
 
-var titleText = ["|",
-					"★",
+var titleText = [
+	
+		    "★",
                     "★… ",
                     "★… ",
-					"★… N",
-					"★… Ne",
-					"★… Nex",
-					"★… Nexo",
-					"★… Nexow",
-					"★… Nexowa ",
+		    "★… N",
+		    "★… Ne",
+		    "★… Nex",
+		    "★… Nexo",
+		    "★… Nexow",
+		    "★… Nexowa ",
                     "★… Nexowar ",
                     "★… Nexoware ",
                     "★… Nexoware ★",
@@ -42,7 +43,7 @@ var titleText = ["|",
                     "★… N",
                     "★… ",
                     "★",
-                    "|",,, ];
+			];
 
 
 function loop() {
